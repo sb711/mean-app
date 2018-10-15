@@ -1,0 +1,49 @@
+<div class="container">
+  <div class="formcontainer">
+    <div class="formbody">
+      <form style="width:100%;" [formGroup]="registerForm">
+        <div class="header">Register</div>
+        <div>
+          <mat-form-field style="width:100%;">
+            <input type="text" formControlName="firstname" matInput placeholder="First Name" id="firstname" required>
+          </mat-form-field>
+          <span *ngIf="isValid('firstname')">First Name is required</span>
+        </div>
+        <div>
+          <mat-form-field style="width:100%;">
+            <input type="text" formControlName="lastname" matInput placeholder="Last Name" id="lastname" required>
+          </mat-form-field>
+          <span *ngIf="isValid('lastname')">Last Name is required</span>
+        </div>
+        <div>
+          <mat-form-field style="width:100%;">
+            <input type="text" formControlName="email" matInput placeholder="Email" id="email" required>
+          </mat-form-field>
+          <span *ngIf="isValid('email')">Entered email is invalid</span>
+        </div>
+        <div>
+          <mat-form-field style="width:100%;">
+            <input type="password" formControlName="password" matInput placeholder="Password" id="pass" required>
+          </mat-form-field>
+          <span *ngIf="isValid('password')">Invalid Password</span>
+        </div>
+        <div>
+          <mat-form-field style="width:100%;">
+            <input type="password" formControlName="cnfpass" matInput placeholder="Re-enter Password" id="cnfpass"
+              required>
+          </mat-form-field>
+          <span *ngIf="isValid('cnfpass')">Password and confirm password should match</span>
+        </div>
+        <div style="margin-top:20px;">
+          <button class="form-btn" (click)="register()">Register</button>
+        </div>
+      </form>
+    </div>
+
+    <div>
+      <div style="width: 290px; padding: 20px;">
+        <button class="form-btn-hollow" (click)="moveToLogin()">Login</button>
+      </div>
+    </div>
+  </div>
+</div>

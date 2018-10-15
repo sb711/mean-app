@@ -1,0 +1,14 @@
+<app-my-nav></app-my-nav>
+
+<div class="main--container">
+  <mat-card>
+    <div *ngFor="let product of productList">
+      <div class="list--section">
+        <span>
+          {{product.name}}
+        </span>
+      </div>
+    </div>
+    <mat-divider></mat-divider>
+  </mat-card>
+</div>

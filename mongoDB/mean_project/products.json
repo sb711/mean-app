@@ -1,0 +1,24 @@
+{ 
+    "_id" : ObjectId("5bc37fdb3a83fd2170c8cdc0"), 
+    "name" : "Apple iPhone X 256 GB Silver"
+}
+{ 
+    "_id" : ObjectId("5bc3800c3a83fd2170c8cdc1"), 
+    "name" : "Apple iPhone X 64 GB Space Grey"
+}
+{ 
+    "_id" : ObjectId("5bc380523a83fd2170c8cdc2"), 
+    "name" : "Apple iPhone X 64 GB Silver"
+}
+{ 
+    "_id" : ObjectId("5bc3806c3a83fd2170c8cdc3"), 
+    "name" : "Google Pixel 2 64GB Just Black"
+}
+{ 
+    "_id" : ObjectId("5bc380903a83fd2170c8cdc4"), 
+    "name" : "Lenovo K6 Note 32GB Dark Grey"
+}
+{ 
+    "_id" : ObjectId("5bc380b33a83fd2170c8cdc5"), 
+    "name" : "Sony Xperia XZ 64GB (Black)"
+}

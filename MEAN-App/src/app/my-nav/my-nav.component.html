@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>Demo App</span>
+      <span class="example-spacer"></span>
+      <div class="menuList">
+        <span routerLink="/myProducts">My Products</span>
+        <span routerLink="/allProducts"> All Products</span>
+        <span (click)="logout()"><button mat-stroked-button color="basic">Logout</button></span>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>

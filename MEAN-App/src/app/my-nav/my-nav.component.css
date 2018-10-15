@@ -1,0 +1,18 @@
+
+.example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .menuList span{
+      font-size: 16px;
+      font-weight: 400;
+      cursor: pointer;
+  }
+  .menuList span{
+      padding-right: 16px;
+  }
+  .menuList span:last-child{padding-right: 0;}

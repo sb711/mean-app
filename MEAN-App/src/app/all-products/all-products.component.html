@@ -1,0 +1,19 @@
+<app-my-nav></app-my-nav>
+
+<div class="main--container">
+  <form style="width:100%;" [formGroup]="productForm">
+    <mat-card>
+      <div *ngFor="let product of productList">
+        <div class="list--section">
+          <span>
+            <mat-checkbox (change)="onChange(product.name, $event.checked)">{{product.name}}</mat-checkbox>
+          </span>
+        </div>
+      </div>
+      <mat-divider></mat-divider>
+      <div class="button-row">
+        <button mat-stroked-button color="accent" (click)="addProduct()">Add to my Products</button>
+      </div>
+    </mat-card>
+  </form>
+</div>
